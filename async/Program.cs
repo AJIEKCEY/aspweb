@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace aspweb
+namespace async
 {
     class Program
     {
