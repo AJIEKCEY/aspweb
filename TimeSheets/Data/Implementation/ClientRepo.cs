@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TimeSheets.Data.Interfaces;
 using TimeSheets.Models;
 
@@ -11,7 +12,7 @@ namespace TimeSheets.Data.Implementation
             throw new NotImplementedException();
         }
 
-        public IEquatable<Client> GetItems()
+        public IEnumerable<Client> GetItems()
         {
             throw new NotImplementedException();
         }

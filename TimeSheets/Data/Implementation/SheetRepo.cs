@@ -88,8 +88,7 @@ namespace TimeSheets.Data.Implementation
         {
             return Sheets.FirstOrDefault(x => x.Id == id);
         }
-
-        public IEquatable<Sheet> GetItems()
+        public IEnumerable<Sheet> GetItems()
         {
             throw new NotImplementedException();
         }
